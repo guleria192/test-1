@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
+}
+
+
+body{
+    /* display: flex; */
+    height: 100vh;
+
+} 
+
+ #navbar{
+  display: flex;
+  position: relative;
+  /* justify-content:space-between; */
+  align-items: center;
+  /* border: 2px solid; */
+  height: 220px;
+} 
+
+#logo{
+position: relative;
+left: 160px;
+/* top:50px ; */
+}
+
+.menu{
+    font-family:  'DM Sans', sans-serif ;
+  position: relative;
+  left: 900px;
+  /* top: 50px; */
+}
+
+#navbar ul{
+display: flex;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 25px;
+   
+}
+
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 3px 22px ;
+   color: #050404;
+   
+}
+
+
+
+
+
+
+
+
+main{
+    
+    position: relative;
+    left: 150px;
+    top: 150px;
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 220vh;
+}
+
+.box1{
+    display: flex;    
+    position: relative;
+    justify-content: space-between;
+}
+
+.box2 h3{
+font-size: 60px;
+font-family: 'DM Sans' ;
+font-weight: 500;
+color: #181717;
+letter-spacing: -0.03em;
+line-height: 97.2%;
+}
+
+.box1 p{
+    position: relative;
+    font-size: 32px;
+    font-family: 'DM Sans', sans-serif;
+    top: 100px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    /* right: 200px; */
+    font-weight: 400;
+    color:#606060;
+}
+
+.box3 img{
+    position: absolute;
+    right: 0px ;
+    height: 600px;
+    width: 421px;
+
+}
+
+.box4{
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+
+.box4 h4{
+    
+    font-size: 18px;
+    color: #050404;
+    text-decoration-line: underline ;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.box4 .para1 {
+    position: absolute;
+    left: 350px;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.box4 .para2{
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+
+.box5{
+    display: flex;
+    position: relative;
+    top: 450px;
+}
+
+.box5 h4{
+    
+    font-size: 18px;
+    color: #050404;
+    text-decoration-line: underline ;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.box5 p {
+    position: absolute;
+    left: 350px;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+hr{
+    position: relative;
+    top: 640px;
+    border: 1.5px solid #181717;
+
+}
+
+.boxx2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 750px;
+}
+
+.box6{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+}
+
+.box7 {
+    position: absolute;
+    right: 150px;
+}
+.box7 h5{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+}
+
+.box7 p{
+    position: absolute;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+top: 100px;
+}
+
+
+
+
+
+.navbar1{
+    /* border: 2px solid; */
+    position: relative;
+  top: 200px;
+  height: 100px;
+    display: flex;
+    justify-content: center;
+} 
+
+
+.navbar1 ul{
+display: flex;
+
+}
+
+.navbar1 ul li{
+    list-style: none;
+    font-size: 25px;
+   
+   
+}
+
+
+.navbar1 ul li a {
+    display: block;
+    color: #050404;
+    text-decoration: none;
+    padding: 3px 22px ;
+   
+}
+
+.div1{
+    position: absolute;
+    font-family: DM Sans;
+    left:150px ;
+    font-size: 21px;
+    color: #2429AF;
+    font-weight: 500;
+}
+
+.div2{
+    position: absolute;
+    left: 1110px;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 500;
+    
+}
