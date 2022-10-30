@@ -5,35 +5,38 @@
 *{
     margin: 0px;
     padding: 0px;
-    background: #E5E5E5;
+   
 }
 
 
 body{
+    overflow-x: hidden;
     /* display: flex; */
     height: 100vh;
+    background: #E5E5E5;
 
 } 
 
  #navbar{
   display: flex;
   position: relative;
-  /* justify-content:space-between; */
+  justify-content:space-between;
+  margin: 5rem;
   align-items: center;
   /* border: 2px solid; */
-  height: 220px;
+  /* height: 220px; */
 } 
 
 #logo{
 position: relative;
-left: 160px;
+/* left: 160px; */
 /* top:50px ; */
 }
 
 .menu{
     font-family:  'DM Sans', sans-serif ;
   position: relative;
-  left: 900px;
+  /* left: 900px; */
   /* top: 50px; */
 }
 
@@ -68,10 +71,11 @@ main{
     
     position: relative;
     left: 150px;
-    top: 150px;
+    /* top: 150px; */
     /* border: 2px solid red; */
     width: 80%;
-    height: 220vh;
+    /* height: 220vh; */
+    margin-top:250px ;
 }
 
 .box1{
@@ -93,7 +97,8 @@ line-height: 97.2%;
     position: relative;
     font-size: 32px;
     font-family: 'DM Sans', sans-serif;
-    top: 100px;
+    margin-top: 50px;
+    /* top: 100px; */
     line-height: 117%;
     letter-spacing: -0.03em;
     /* right: 200px; */
@@ -112,11 +117,11 @@ line-height: 97.2%;
 .box4{
     display: flex;
     position: relative;
-    top: 200px;
+    /* top: 200px; */
 }
 
 .box4 h4{
-    
+    margin-top: 150px;
     font-size: 18px;
     color: #050404;
     text-decoration-line: underline ;
@@ -125,6 +130,7 @@ line-height: 97.2%;
 }
 
 .box4 .para1 {
+    margin-top: 150px;
     position: absolute;
     left: 350px;
     font-size: 18px;
@@ -134,9 +140,10 @@ line-height: 97.2%;
 }
 
 .box4 .para2{
+    margin-top: 200px;
     position: absolute;
     left: 350px;
-    top: 120px;
+    /* top: 120px; */
     font-size: 18px;
     font-style: normal;
     font-family: 'Inter';
@@ -147,11 +154,11 @@ line-height: 97.2%;
 .box5{
     display: flex;
     position: relative;
-    top: 450px;
+    /* top: 450px; */
 }
 
 .box5 h4{
-    
+    margin-top: 150px;
     font-size: 18px;
     color: #050404;
     text-decoration-line: underline ;
@@ -161,6 +168,7 @@ line-height: 97.2%;
 
 .box5 p {
     position: absolute;
+    margin-top: 150px;
     left: 350px;
     font-size: 18px;
     font-style: normal;
@@ -170,8 +178,9 @@ line-height: 97.2%;
 
 hr{
     position: relative;
-    top: 640px;
-    border: 1.5px solid #181717;
+    margin-top: 180px;
+    /* top: 640px; */
+    border: 1px solid #181717;
 
 }
 
@@ -179,7 +188,8 @@ hr{
     position: relative;
     display: flex;
     justify-content: space-between;
-    top: 750px;
+    margin-top: 120px;
+    /* top: 750px; */
 }
 
 .box6{
@@ -209,7 +219,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 121.5%;
-top: 100px;
+/* top: 100px; */
 }
 
 
@@ -219,9 +229,12 @@ top: 100px;
 .navbar1{
     /* border: 2px solid; */
     position: relative;
-  top: 200px;
-  height: 100px;
+    margin-top: 150px;
+    /* margin: 5rem; */
+  /* top: 200px; */
+  /* height: 100px; */
     display: flex;
+    height: 80px;
     justify-content: center;
 } 
 
@@ -250,7 +263,7 @@ display: flex;
 .div1{
     position: absolute;
     font-family: DM Sans;
-    left:150px ;
+    left: 140px;
     font-size: 21px;
     color: #2429AF;
     font-weight: 500;
@@ -258,7 +271,7 @@ display: flex;
 
 .div2{
     position: absolute;
-    left: 1110px;
+    right: 110px;
     font-family: DM Sans;
     font-size: 21px;
     font-weight: 500;
